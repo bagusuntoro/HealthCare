@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Health Care</title>
+    <!-- custom css -->
+    <style>
+        .customBgSalam {
+            background-color: #F1F1F1;
+        }
+
+        /* Menambahkan gaya untuk tautan aktif (active link) */
+        .navbar-nav .nav-link.active {
+            color: blue !important; /* Menggunakan !important untuk mengatasi CSS Bootstrap */
+        }
+    </style>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white mt-3">
+        <div class="container">
+            <img src="assets/img/logo.PNG" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse ms-auto navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <!-- jika link active maka berwarna biru -->
+                    <a class="nav-link active" aria-current="page" href="#">Home</a> 
+                    <a class="nav-link" href="#">Gout Arthritis</a>
+                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#">Help</a>
+                    <!-- link warna kuning -->
+                    <a class="nav-link text-warning" href="#">Sign Up</a>
+                    <a class="nav-link text-warning" href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+    </nav><!-- akhir navbar -->
+
+    <!-- content -->
+    <section class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-sm-6 customBgSalam pt-5 pb-5">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11">
+                        <h2>Make Your Own</h2>
+                        <h2>Lab. At Home!</h2>
+                        "Early Gout Checkker"<br>
+                        Periksa Secara Dini Penyakit Asam Urat Anda<br>
+                        Kontrol Asam Urat Dengan Cepat & Tepat<br>
+                        Temukan Rasa Lega Dalam Genggaman Anda<br>
+                        <button type="button" class="btn btn-outline-primary mt-3">Get Started!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 text-center pt-5 pb-5">
+                <img src="assets/img/dokter.PNG" alt="dokter" width="400" class="img-fluid">
+            </div>
+        </div>
+    </section><!-- akhir content -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
